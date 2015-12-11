@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34F18A21EF9FDD824AC81D06 /* Pods_Knote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B43C2BE8083D39B8C8ADFB8 /* Pods_Knote.framework */; };
+		B16AEFC91BEDD46C00807B1C /* customTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B16AEFC81BEDD46C00807B1C /* customTableViewCell.m */; };
+		B18493B41BF59F5000F684FF /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18493B31BF59F5000F684FF /* CoreSpotlight.framework */; };
+		B18D5F511BFE0239001F2F31 /* archiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18D5F501BFE0239001F2F31 /* archiveViewController.m */; };
+		B18D5F541BFE0618001F2F31 /* customArchivedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B18D5F531BFE0618001F2F31 /* customArchivedTableViewCell.m */; };
+		B1AAE3B71BF4A0BC00780758 /* IMG_2047.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B1AAE3B31BF4A0BC00780758 /* IMG_2047.JPG */; };
+		B1AAE3B81BF4A0BC00780758 /* IMG_2044.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B1AAE3B41BF4A0BC00780758 /* IMG_2044.JPG */; };
+		B1AAE3B91BF4A0BC00780758 /* IMG_2043.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B1AAE3B51BF4A0BC00780758 /* IMG_2043.JPG */; };
+		B1AC83AD1C1AB3C5002DE677 /* SF-Fonts-August-26 in Resources */ = {isa = PBXBuildFile; fileRef = B1AC83AA1C1AB3C5002DE677 /* SF-Fonts-August-26 */; };
+		B1AC83AE1C1AB3C5002DE677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AC83AB1C1AB3C5002DE677 /* Assets.xcassets */; };
+		B1AC83AF1C1AB3C5002DE677 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = B1AC83AC1C1AB3C5002DE677 /* Roboto */; };
+		B1D1EDA51BE5FC0C00419CEB /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D1EDA41BE5FC0C00419CEB /* mainViewController.m */; };
+		B1D1EDA81BE5FC3200419CEB /* editPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D1EDA71BE5FC3200419CEB /* editPanelViewController.m */; };
+		B1DB1CE31BEB69D500169C88 /* allNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB1CE21BEB69D500169C88 /* allNotes.m */; };
+		B1DB1CE61BEB69F200169C88 /* userInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB1CE51BEB69F200169C88 /* userInfo.m */; };
+		B1DB1CFF1BEB863F00169C88 /* mainPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB1CFE1BEB863F00169C88 /* mainPanelViewController.m */; };
+		B1DB1D021BEB8DDD00169C88 /* editPanelViewControlless.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB1D011BEB8DDD00169C88 /* editPanelViewControlless.m */; };
+		B1DB1D4F1BEC93FA00169C88 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB1D4D1BEC93FA00169C88 /* libsqlite3.0.tbd */; };
+		B1DB1D501BEC93FA00169C88 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB1D4E1BEC93FA00169C88 /* libsqlite3.tbd */; };
+		B1FBCDD11BE5F5C200E012A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FBCDD01BE5F5C200E012A6 /* main.m */; };
+		B1FBCDD41BE5F5C200E012A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FBCDD31BE5F5C200E012A6 /* AppDelegate.m */; };
+		B1FBCDD71BE5F5C200E012A6 /* logInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FBCDD61BE5F5C200E012A6 /* logInViewController.m */; };
+		B1FBCDDA1BE5F5C200E012A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FBCDD81BE5F5C200E012A6 /* Main.storyboard */; };
+		B1FBCDDF1BE5F5C200E012A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FBCDDD1BE5F5C200E012A6 /* LaunchScreen.storyboard */; };
+		B1FBCDEA1BE5F5C200E012A6 /* KnoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FBCDE91BE5F5C200E012A6 /* KnoteTests.m */; };
+		B1FBCDF51BE5F5C200E012A6 /* KnoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FBCDF41BE5F5C200E012A6 /* KnoteUITests.m */; };
+		B23E17304C66E9646225E9EE /* Pods_KnoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA725685BD755222B644107 /* Pods_KnoteTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1FBCDE61BE5F5C200E012A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1FBCDC41BE5F5C200E012A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1FBCDCB1BE5F5C200E012A6;
+			remoteInfo = Knote;
+		};
+		B1FBCDF11BE5F5C200E012A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1FBCDC41BE5F5C200E012A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1FBCDCB1BE5F5C200E012A6;
+			remoteInfo = Knote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107E1912E2FAFF7F77C3CF7B /* Pods-Knote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Knote/Pods-Knote.debug.xcconfig"; sourceTree = "<group>"; };
+		297FBA15387577098C75F4D5 /* Pods-KnoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnoteTests/Pods-KnoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		432BEE974263D0570E862607 /* Pods-Knote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knote.release.xcconfig"; path = "Pods/Target Support Files/Pods-Knote/Pods-Knote.release.xcconfig"; sourceTree = "<group>"; };
+		4BA725685BD755222B644107 /* Pods_KnoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B43C2BE8083D39B8C8ADFB8 /* Pods_Knote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Knote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16AEFC71BEDD46C00807B1C /* customTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = customTableViewCell.h; path = ../customTableViewCell.h; sourceTree = "<group>"; };
+		B16AEFC81BEDD46C00807B1C /* customTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = customTableViewCell.m; path = ../customTableViewCell.m; sourceTree = "<group>"; };
+		B18493B31BF59F5000F684FF /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		B18D5F4F1BFE0239001F2F31 /* archiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = archiveViewController.h; sourceTree = "<group>"; };
+		B18D5F501BFE0239001F2F31 /* archiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = archiveViewController.m; sourceTree = "<group>"; };
+		B18D5F521BFE0618001F2F31 /* customArchivedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customArchivedTableViewCell.h; sourceTree = "<group>"; };
+		B18D5F531BFE0618001F2F31 /* customArchivedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customArchivedTableViewCell.m; sourceTree = "<group>"; };
+		B1AAE3B31BF4A0BC00780758 /* IMG_2047.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2047.JPG; sourceTree = "<group>"; };
+		B1AAE3B41BF4A0BC00780758 /* IMG_2044.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2044.JPG; sourceTree = "<group>"; };
+		B1AAE3B51BF4A0BC00780758 /* IMG_2043.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2043.JPG; sourceTree = "<group>"; };
+		B1AC83AA1C1AB3C5002DE677 /* SF-Fonts-August-26 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SF-Fonts-August-26"; sourceTree = "<group>"; };
+		B1AC83AB1C1AB3C5002DE677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1AC83AC1C1AB3C5002DE677 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
+		B1D1EDA31BE5FBFB00419CEB /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		B1D1EDA41BE5FC0C00419CEB /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		B1D1EDA61BE5FC1F00419CEB /* editPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editPanelViewController.h; sourceTree = "<group>"; };
+		B1D1EDA71BE5FC3200419CEB /* editPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editPanelViewController.m; sourceTree = "<group>"; };
+		B1DB1CE11BEB69D500169C88 /* allNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allNotes.h; sourceTree = "<group>"; };
+		B1DB1CE21BEB69D500169C88 /* allNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allNotes.m; sourceTree = "<group>"; };
+		B1DB1CE41BEB69F200169C88 /* userInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userInfo.h; sourceTree = "<group>"; };
+		B1DB1CE51BEB69F200169C88 /* userInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userInfo.m; sourceTree = "<group>"; };
+		B1DB1CFD1BEB862C00169C88 /* mainPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainPanelViewController.h; sourceTree = "<group>"; };
+		B1DB1CFE1BEB863F00169C88 /* mainPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainPanelViewController.m; sourceTree = "<group>"; };
+		B1DB1D001BEB8DC300169C88 /* editPanelViewControlless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editPanelViewControlless.h; sourceTree = "<group>"; };
+		B1DB1D011BEB8DDD00169C88 /* editPanelViewControlless.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editPanelViewControlless.m; sourceTree = "<group>"; };
+		B1DB1D4D1BEC93FA00169C88 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B1DB1D4E1BEC93FA00169C88 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B1FBCDCC1BE5F5C200E012A6 /* Knote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FBCDD01BE5F5C200E012A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1FBCDD21BE5F5C200E012A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1FBCDD31BE5F5C200E012A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1FBCDD51BE5F5C200E012A6 /* logInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logInViewController.h; sourceTree = "<group>"; };
+		B1FBCDD61BE5F5C200E012A6 /* logInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = logInViewController.m; sourceTree = "<group>"; };
+		B1FBCDD91BE5F5C200E012A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1FBCDDE1BE5F5C200E012A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1FBCDE01BE5F5C200E012A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FBCDE51BE5F5C200E012A6 /* KnoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FBCDE91BE5F5C200E012A6 /* KnoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnoteTests.m; sourceTree = "<group>"; };
+		B1FBCDEB1BE5F5C200E012A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FBCDF01BE5F5C200E012A6 /* KnoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FBCDF41BE5F5C200E012A6 /* KnoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnoteUITests.m; sourceTree = "<group>"; };
+		B1FBCDF61BE5F5C200E012A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC31AE027155A8A12FBA3089 /* Pods-KnoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnoteTests/Pods-KnoteTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1FBCDC91BE5F5C200E012A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18493B41BF59F5000F684FF /* CoreSpotlight.framework in Frameworks */,
+				B1DB1D4F1BEC93FA00169C88 /* libsqlite3.0.tbd in Frameworks */,
+				B1DB1D501BEC93FA00169C88 /* libsqlite3.tbd in Frameworks */,
+				34F18A21EF9FDD824AC81D06 /* Pods_Knote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FBCDE21BE5F5C200E012A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23E17304C66E9646225E9EE /* Pods_KnoteTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FBCDED1BE5F5C200E012A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D56575A1ABAC156F12DB0F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				107E1912E2FAFF7F77C3CF7B /* Pods-Knote.debug.xcconfig */,
+				432BEE974263D0570E862607 /* Pods-Knote.release.xcconfig */,
+				297FBA15387577098C75F4D5 /* Pods-KnoteTests.debug.xcconfig */,
+				DC31AE027155A8A12FBA3089 /* Pods-KnoteTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68BA496419778D4A78865557 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B18493B31BF59F5000F684FF /* CoreSpotlight.framework */,
+				B1DB1D4D1BEC93FA00169C88 /* libsqlite3.0.tbd */,
+				B1DB1D4E1BEC93FA00169C88 /* libsqlite3.tbd */,
+				5B43C2BE8083D39B8C8ADFB8 /* Pods_Knote.framework */,
+				4BA725685BD755222B644107 /* Pods_KnoteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B18D5F4E1BFDAF7D001F2F31 /* archiveViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B18D5F4F1BFE0239001F2F31 /* archiveViewController.h */,
+				B18D5F501BFE0239001F2F31 /* archiveViewController.m */,
+				B18D5F521BFE0618001F2F31 /* customArchivedTableViewCell.h */,
+				B18D5F531BFE0618001F2F31 /* customArchivedTableViewCell.m */,
+			);
+			name = archiveViewController;
+			sourceTree = "<group>";
+		};
+		B1D1EDA91BE5FC4400419CEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBCDD81BE5F5C200E012A6 /* Main.storyboard */,
+				B1FBCDDD1BE5F5C200E012A6 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B1D1EDAA1BE5FC5A00419CEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1D1EDAB1BE5FC7900419CEB /* logInViewController */,
+				B1DB1CFC1BEB860100169C88 /* mainPanelViewController */,
+				B18D5F4E1BFDAF7D001F2F31 /* archiveViewController */,
+				B1D1EDAD1BE5FC8E00419CEB /* editPanelViewController */,
+				B1D1EDAC1BE5FC8500419CEB /* mainViewController */,
+				B1DB1D031BEB8DE200169C88 /* editPanelViewControlless(USELESS) */,
+			);
+			name = Controllers;
+			path = Knote;
+			sourceTree = "<group>";
+		};
+		B1D1EDAB1BE5FC7900419CEB /* logInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBCDD51BE5F5C200E012A6 /* logInViewController.h */,
+				B1FBCDD61BE5F5C200E012A6 /* logInViewController.m */,
+			);
+			name = logInViewController;
+			sourceTree = "<group>";
+		};
+		B1D1EDAC1BE5FC8500419CEB /* mainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B1D1EDA31BE5FBFB00419CEB /* mainViewController.h */,
+				B1D1EDA41BE5FC0C00419CEB /* mainViewController.m */,
+			);
+			name = mainViewController;
+			sourceTree = "<group>";
+		};
+		B1D1EDAD1BE5FC8E00419CEB /* editPanelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B1D1EDA61BE5FC1F00419CEB /* editPanelViewController.h */,
+				B1D1EDA71BE5FC3200419CEB /* editPanelViewController.m */,
+			);
+			name = editPanelViewController;
+			sourceTree = "<group>";
+		};
+		B1D1EDAE1BE5FF1300419CEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1AC83AB1C1AB3C5002DE677 /* Assets.xcassets */,
+				B1AC83AC1C1AB3C5002DE677 /* Roboto */,
+				B1AC83AA1C1AB3C5002DE677 /* SF-Fonts-August-26 */,
+				B1AAE3B31BF4A0BC00780758 /* IMG_2047.JPG */,
+				B1AAE3B41BF4A0BC00780758 /* IMG_2044.JPG */,
+				B1AAE3B51BF4A0BC00780758 /* IMG_2043.JPG */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B1DB1CE01BEB69A100169C88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB1CE11BEB69D500169C88 /* allNotes.h */,
+				B1DB1CE21BEB69D500169C88 /* allNotes.m */,
+				B1DB1CE41BEB69F200169C88 /* userInfo.h */,
+				B1DB1CE51BEB69F200169C88 /* userInfo.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B1DB1CFC1BEB860100169C88 /* mainPanelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B16AEFC71BEDD46C00807B1C /* customTableViewCell.h */,
+				B16AEFC81BEDD46C00807B1C /* customTableViewCell.m */,
+				B1DB1CFD1BEB862C00169C88 /* mainPanelViewController.h */,
+				B1DB1CFE1BEB863F00169C88 /* mainPanelViewController.m */,
+			);
+			name = mainPanelViewController;
+			sourceTree = "<group>";
+		};
+		B1DB1D031BEB8DE200169C88 /* editPanelViewControlless(USELESS) */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB1D001BEB8DC300169C88 /* editPanelViewControlless.h */,
+				B1DB1D011BEB8DDD00169C88 /* editPanelViewControlless.m */,
+			);
+			name = "editPanelViewControlless(USELESS)";
+			sourceTree = "<group>";
+		};
+		B1FBCDC31BE5F5C200E012A6 = {
+			isa = PBXGroup;
+			children = (
+				B1DB1CE01BEB69A100169C88 /* Models */,
+				B1D1EDAE1BE5FF1300419CEB /* Resources */,
+				B1D1EDAA1BE5FC5A00419CEB /* Controllers */,
+				B1D1EDA91BE5FC4400419CEB /* View */,
+				B1FBCDCE1BE5F5C200E012A6 /* Knote */,
+				B1FBCDE81BE5F5C200E012A6 /* KnoteTests */,
+				B1FBCDF31BE5F5C200E012A6 /* KnoteUITests */,
+				B1FBCDCD1BE5F5C200E012A6 /* Products */,
+				1D56575A1ABAC156F12DB0F2 /* Pods */,
+				68BA496419778D4A78865557 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1FBCDCD1BE5F5C200E012A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBCDCC1BE5F5C200E012A6 /* Knote.app */,
+				B1FBCDE51BE5F5C200E012A6 /* KnoteTests.xctest */,
+				B1FBCDF01BE5F5C200E012A6 /* KnoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1FBCDCE1BE5F5C200E012A6 /* Knote */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBCDD21BE5F5C200E012A6 /* AppDelegate.h */,
+				B1FBCDD31BE5F5C200E012A6 /* AppDelegate.m */,
+				B1FBCDE01BE5F5C200E012A6 /* Info.plist */,
+				B1FBCDCF1BE5F5C200E012A6 /* Supporting Files */,
+			);
+			path = Knote;
+			sourceTree = "<group>";
+		};
+		B1FBCDCF1BE5F5C200E012A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBCDD01BE5F5C200E012A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1FBCDE81BE5F5C200E012A6 /* KnoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBCDE91BE5F5C200E012A6 /* KnoteTests.m */,
+				B1FBCDEB1BE5F5C200E012A6 /* Info.plist */,
+			);
+			path = KnoteTests;
+			sourceTree = "<group>";
+		};
+		B1FBCDF31BE5F5C200E012A6 /* KnoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1FBCDF41BE5F5C200E012A6 /* KnoteUITests.m */,
+				B1FBCDF61BE5F5C200E012A6 /* Info.plist */,
+			);
+			path = KnoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1FBCDCB1BE5F5C200E012A6 /* Knote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FBCDF91BE5F5C200E012A6 /* Build configuration list for PBXNativeTarget "Knote" */;
+			buildPhases = (
+				AEBE6B51F75D778C8447A158 /* Check Pods Manifest.lock */,
+				B1FBCDC81BE5F5C200E012A6 /* Sources */,
+				B1FBCDC91BE5F5C200E012A6 /* Frameworks */,
+				B1FBCDCA1BE5F5C200E012A6 /* Resources */,
+				E51FB97FF5D598A52E1E7640 /* Embed Pods Frameworks */,
+				93C520CE0BE704792937D851 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Knote;
+			productName = Knote;
+			productReference = B1FBCDCC1BE5F5C200E012A6 /* Knote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1FBCDE41BE5F5C200E012A6 /* KnoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FBCDFC1BE5F5C200E012A6 /* Build configuration list for PBXNativeTarget "KnoteTests" */;
+			buildPhases = (
+				848DF3D676AF408276843346 /* Check Pods Manifest.lock */,
+				B1FBCDE11BE5F5C200E012A6 /* Sources */,
+				B1FBCDE21BE5F5C200E012A6 /* Frameworks */,
+				B1FBCDE31BE5F5C200E012A6 /* Resources */,
+				BD8F50213A44B81F7385C938 /* Embed Pods Frameworks */,
+				CC1C781F498D7C94950F0DC1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1FBCDE71BE5F5C200E012A6 /* PBXTargetDependency */,
+			);
+			name = KnoteTests;
+			productName = KnoteTests;
+			productReference = B1FBCDE51BE5F5C200E012A6 /* KnoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1FBCDEF1BE5F5C200E012A6 /* KnoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FBCDFF1BE5F5C200E012A6 /* Build configuration list for PBXNativeTarget "KnoteUITests" */;
+			buildPhases = (
+				B1FBCDEC1BE5F5C200E012A6 /* Sources */,
+				B1FBCDED1BE5F5C200E012A6 /* Frameworks */,
+				B1FBCDEE1BE5F5C200E012A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1FBCDF21BE5F5C200E012A6 /* PBXTargetDependency */,
+			);
+			name = KnoteUITests;
+			productName = KnoteUITests;
+			productReference = B1FBCDF01BE5F5C200E012A6 /* KnoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1FBCDC41BE5F5C200E012A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Allen X";
+				TargetAttributes = {
+					B1FBCDCB1BE5F5C200E012A6 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = N777F9PD46;
+					};
+					B1FBCDE41BE5F5C200E012A6 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = N777F9PD46;
+						TestTargetID = B1FBCDCB1BE5F5C200E012A6;
+					};
+					B1FBCDEF1BE5F5C200E012A6 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = N777F9PD46;
+						TestTargetID = B1FBCDCB1BE5F5C200E012A6;
+					};
+				};
+			};
+			buildConfigurationList = B1FBCDC71BE5F5C200E012A6 /* Build configuration list for PBXProject "Knote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1FBCDC31BE5F5C200E012A6;
+			productRefGroup = B1FBCDCD1BE5F5C200E012A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1FBCDCB1BE5F5C200E012A6 /* Knote */,
+				B1FBCDE41BE5F5C200E012A6 /* KnoteTests */,
+				B1FBCDEF1BE5F5C200E012A6 /* KnoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1FBCDCA1BE5F5C200E012A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FBCDDF1BE5F5C200E012A6 /* LaunchScreen.storyboard in Resources */,
+				B1AAE3B91BF4A0BC00780758 /* IMG_2043.JPG in Resources */,
+				B1AAE3B81BF4A0BC00780758 /* IMG_2044.JPG in Resources */,
+				B1AC83AF1C1AB3C5002DE677 /* Roboto in Resources */,
+				B1AAE3B71BF4A0BC00780758 /* IMG_2047.JPG in Resources */,
+				B1AC83AE1C1AB3C5002DE677 /* Assets.xcassets in Resources */,
+				B1FBCDDA1BE5F5C200E012A6 /* Main.storyboard in Resources */,
+				B1AC83AD1C1AB3C5002DE677 /* SF-Fonts-August-26 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FBCDE31BE5F5C200E012A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FBCDEE1BE5F5C200E012A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		848DF3D676AF408276843346 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93C520CE0BE704792937D851 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Knote/Pods-Knote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBE6B51F75D778C8447A158 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8F50213A44B81F7385C938 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnoteTests/Pods-KnoteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC1C781F498D7C94950F0DC1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnoteTests/Pods-KnoteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E51FB97FF5D598A52E1E7640 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Knote/Pods-Knote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1FBCDC81BE5F5C200E012A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18D5F541BFE0618001F2F31 /* customArchivedTableViewCell.m in Sources */,
+				B16AEFC91BEDD46C00807B1C /* customTableViewCell.m in Sources */,
+				B1DB1CFF1BEB863F00169C88 /* mainPanelViewController.m in Sources */,
+				B1D1EDA81BE5FC3200419CEB /* editPanelViewController.m in Sources */,
+				B18D5F511BFE0239001F2F31 /* archiveViewController.m in Sources */,
+				B1DB1CE31BEB69D500169C88 /* allNotes.m in Sources */,
+				B1FBCDD71BE5F5C200E012A6 /* logInViewController.m in Sources */,
+				B1DB1D021BEB8DDD00169C88 /* editPanelViewControlless.m in Sources */,
+				B1FBCDD41BE5F5C200E012A6 /* AppDelegate.m in Sources */,
+				B1DB1CE61BEB69F200169C88 /* userInfo.m in Sources */,
+				B1FBCDD11BE5F5C200E012A6 /* main.m in Sources */,
+				B1D1EDA51BE5FC0C00419CEB /* mainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FBCDE11BE5F5C200E012A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FBCDEA1BE5F5C200E012A6 /* KnoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FBCDEC1BE5F5C200E012A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FBCDF51BE5F5C200E012A6 /* KnoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1FBCDE71BE5F5C200E012A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1FBCDCB1BE5F5C200E012A6 /* Knote */;
+			targetProxy = B1FBCDE61BE5F5C200E012A6 /* PBXContainerItemProxy */;
+		};
+		B1FBCDF21BE5F5C200E012A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1FBCDCB1BE5F5C200E012A6 /* Knote */;
+			targetProxy = B1FBCDF11BE5F5C200E012A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1FBCDD81BE5F5C200E012A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1FBCDD91BE5F5C200E012A6 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Knote;
+			sourceTree = "<group>";
+		};
+		B1FBCDDD1BE5F5C200E012A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1FBCDDE1BE5F5C200E012A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = Knote;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1FBCDF71BE5F5C200E012A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1FBCDF81BE5F5C200E012A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1FBCDFA1BE5F5C200E012A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 107E1912E2FAFF7F77C3CF7B /* Pods-Knote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Knote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenx.Knote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1FBCDFB1BE5F5C200E012A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432BEE974263D0570E862607 /* Pods-Knote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Knote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenx.Knote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B1FBCDFD1BE5F5C200E012A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297FBA15387577098C75F4D5 /* Pods-KnoteTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KnoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenx.KnoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knote.app/Knote";
+			};
+			name = Debug;
+		};
+		B1FBCDFE1BE5F5C200E012A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC31AE027155A8A12FBA3089 /* Pods-KnoteTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KnoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenx.KnoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knote.app/Knote";
+			};
+			name = Release;
+		};
+		B1FBCE001BE5F5C200E012A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KnoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenx.KnoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Knote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B1FBCE011BE5F5C200E012A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KnoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allenx.KnoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Knote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1FBCDC71BE5F5C200E012A6 /* Build configuration list for PBXProject "Knote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FBCDF71BE5F5C200E012A6 /* Debug */,
+				B1FBCDF81BE5F5C200E012A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FBCDF91BE5F5C200E012A6 /* Build configuration list for PBXNativeTarget "Knote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FBCDFA1BE5F5C200E012A6 /* Debug */,
+				B1FBCDFB1BE5F5C200E012A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FBCDFC1BE5F5C200E012A6 /* Build configuration list for PBXNativeTarget "KnoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FBCDFD1BE5F5C200E012A6 /* Debug */,
+				B1FBCDFE1BE5F5C200E012A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FBCDFF1BE5F5C200E012A6 /* Build configuration list for PBXNativeTarget "KnoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FBCE001BE5F5C200E012A6 /* Debug */,
+				B1FBCE011BE5F5C200E012A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1FBCDC41BE5F5C200E012A6 /* Project object */;
+}

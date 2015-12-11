@@ -1,0 +1,6 @@
+framework module LiveFrost {
+  umbrella header "LiveFrost-umbrella.h"
+
+  export *
+  module * { export * }
+}
