@@ -1,4 +1,4 @@
-# Knote -Version 1.0
+# Knote -Version 1.0<img src="https://github.com/allenx/Knote/blob/master/Assets.xcassets/Icon-76.imageset/Icon-76%402x.png" alt="Knote image" width="10%" height="10%"/>
 
 Knote is your personal knowledge handler.
 
