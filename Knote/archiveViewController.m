@@ -164,7 +164,7 @@
     cell.backgroundView = [UIView new];//transparent
     cell.selectedBackgroundView = [UIView new];//transparent
         if (cell == nil){
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[customArchivedTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
     cell.archivedNotesName.text = archivedNotesNameArray[indexPath.row];

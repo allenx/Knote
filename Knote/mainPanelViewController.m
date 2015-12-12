@@ -208,7 +208,7 @@
     [axKnotes removeAllObjects];
     [notesName removeAllObjects];
     NSString *sql = [[NSString alloc] initWithFormat:@"SELECT NOTESNAME, NOTESCONTENT, STATUS FROM axKnotes WHERE NOTESCONTENT LIKE '%%%@%%'", notes];
-    NSLog(sql);
+    //NSLog(sql);
     sqlite3_stmt *statement;
     if (sqlite3_prepare_v2(dataBase, [sql UTF8String], -1, &statement, nil) == SQLITE_OK){
         while (sqlite3_step(statement) == SQLITE_ROW) {
@@ -244,7 +244,7 @@
         
     }
     if (cell == nil){
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[customTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
     cell.noteContentInCustomCell.text = axKnotes[indexPath.row];

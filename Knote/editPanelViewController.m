@@ -93,7 +93,7 @@
 - (void) updateObject{
     if(sqlite3_open([dbPath UTF8String], &dataBase) == SQLITE_OK){
         NSString *sql = [[NSString alloc] initWithFormat:@"UPDATE axKnotes SET NOTESNAME = '%@', NOTESCONTENT = '%@' WHERE NOTESCONTENT = '%@'", self.noteName.text, self.editArea.text, self.detailText];
-        NSLog(sql);
+        //NSLog(sql);
         int result = [self execSQL:sql];
         if(result == SQLITE_OK){
             NSLog(@"Update succeeded");
